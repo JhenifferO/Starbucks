@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header {  
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1550px;
+    
+}
+
+header img {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.menu {
+    margin-right: 100px;
+    line-height: 20px;
+}
+
+.menu a {
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+    margin: 10px;
+}
+
+header a:hover {
+	border-bottom: 2px solid #000;
+}
+
+section.about {
+    height: calc(100% - 120px);
+    position: relative;
+}
+
+.extras {
+    position: absolute;
+    bottom: -680px;
+    right: -550px;
+    width: 1200px;
+    height: 1200px;
+    background-color: #017143;
+    border-radius: 50%;
+}
+
+.extras img {
+    position: absolute;
+    width: 380px;
+    height: 520px;
+    bottom: 720px;
+    left: 50px;
+    padding: 0px;
+}
+
+.social-midias {
+    position: absolute;
+    left: 610px;
+    top: 120px;    
+}
+ 
+.social-midias ul {
+    width: 30px;
+    padding: 8px;
+}
+
+.social-midias ul li a {
+    font-size: 1.5em;
+    color: black;
+}
+
+.social-midias ul li {
+    margin-bottom: 10px;
+    padding: 7px 0px;
+}
+
+.center {
+    position: relative;
+    right: 780px;
+}
+
+.center .texto-sobre {
+    font-size: 2.3em;
+}
+
+.center .texto-sobre p {
+    font-size: 0.5em;
+    max-width: 480px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.center .button {
+    letter-spacing: 1px;
+    color: white;
+    margin-top: 15px;
+    font-size: 1em;
+    padding: 8px 12px;
+    background: #017143;
+    border-radius: 25px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    left: 550px;
+}
+
+footer li {
+    transition: 0.5s;
+    padding: 20px;
+}
+
+footer li:hover {
+    transform: translateY(-15px);
+}
+
+footer li img {
+    width: 60px;
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
